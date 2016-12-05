@@ -8,7 +8,7 @@ export default() => (
             <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
             <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
         </Head>
-        <article className="baskerville pb5">
+        <article className="baskerville pb5 bg-light-gray">
             <header className="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
                 <h1 className="f1 f2-m f-subheadline-l measure lh-title fw1 mt0">Coterie 292</h1>
                 <p className="f4">
