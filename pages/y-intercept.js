@@ -19,7 +19,7 @@ const About = React.createClass({
 					<article className="pa3 pa5-ns mt3">
 						<span className="f3">Description</span>
 						<p className="measure lh-copy">
-							Pet Vet DB allows veternarians and owners track a pet's health records. 
+							Pet Vet DB allows veternarians and owners track a pet\n's health records. 
 						</p>
 						<p className="measure lh-copy">
 							As a veternarian, a user enjoys the easy access and editing of pet records; updating vaccination records,
