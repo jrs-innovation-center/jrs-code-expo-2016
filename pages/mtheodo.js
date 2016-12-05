@@ -8,9 +8,9 @@ export default() => (
             <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
             <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
         </Head>
-        <article className="baskerville pb5 bg-light-gray">
+        <article className="pb5 bg-light-gray">
             <header className="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
-                <h1 className="f1 f2-m f-subheadline-l measure lh-title fw1 mt0">Coterie 292</h1>
+                <h1 className="f1 b baskerville f2-m f-subheadline-l measure lh-title fw4 mt0">Coterie 292</h1>
                 <p className="f4">
                     A social website that allows users to rate and review all things music and allow friends the ability to provide their opinions via votes and comments. Associated within the coterie, is the ability to create Top 5 lists that visitors can view but can not vote or add a comment. Users can create lists, vote and comment.
                 </p>
@@ -128,7 +128,14 @@ export default() => (
                         </div>
                     </div>
                 </article>
+                <footer className="ph3 ph4-ns pv6 bt b--black-10 black-70">
+          <a href="mailto:" className="link b f4 f2-ns dim black-70 lh-solid">matt.theodore292@gmail.com@email.com</a>
+          <div className="mt5">
+            <a href="https://github.com/mtheodo" title="Language" class="f6 dib pr2 mid-gray dim">GitHub</a>
+          </div>
+        </footer>
             </header>
         </article>
+
     </div>
 )
