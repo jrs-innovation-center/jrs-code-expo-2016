@@ -14,5 +14,6 @@ export default () => (
 
     <h1 className="fw6 f3 f2-ns lh-title mt0 mb3">Chris Cleans 4u</h1>
       <div className="fw1 f5 mt0 mb3">Click <Link href="/about"><a>here</a></Link> to read more</div>
+    <img src="/static/circleClean.png" />
   </div>
 )
