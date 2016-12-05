@@ -8,5 +8,8 @@
     },
     "scripts": {
         "dev": "next"
+    },
+    "devDependencies": {
+        "tachyons": "^4.5.5"
     }
 }
