@@ -19,7 +19,7 @@ const About = React.createClass({
 					<article className="pa3 pa5-ns mt3">
 						<span className="f3">Description</span>
 						<p className="measure lh-copy">
-							Pet Vet DB allows veternarians and owners track a pet\n's health records. 
+							Pet Vet DB allows veternarians and owners track a pet\'s health records. 
 						</p>
 						<p className="measure lh-copy">
 							As a veternarian, a user enjoys the easy access and editing of pet records; updating vaccination records,
@@ -27,7 +27,7 @@ const About = React.createClass({
 							from a calculation component which is based vaccination schedule tables and routine visit schedules
 						</p>
 						<p className="measure lh-copy">
-							As an owner, users will be able to view their pet's or pets' medical records (lab tests,
+							As an owner, users will be able to view their pet\'s or pets\' medical records (lab tests,
 							vaccination historty, procedure and surgery history), see proposed scheduled visits,
 							and edit their own or their animal's bio.
 						</p>
