@@ -1,9 +1,12 @@
 const React = require('react')
+const Monaghancj = require('./monaghancj')
 
 const Index = React.createClass({
   render() {
     return (
-      <h1>Hello World</h1>
+      <div>
+        <h1>Hello World</h1>
+      </div>
     )
   }
 })
