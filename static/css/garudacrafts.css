@@ -1,0 +1,36 @@
+.wrapper {
+    min-width: 280px;
+}
+.page-header {
+    background: #222;
+}
+.page-header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 0 2rem;
+    padding: 2rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.page-footer {
+    background: #aaa;
+}
+.page-footer p {
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.25rem;
+    margin: 3rem 0 0;
+    padding: 2rem 1rem;
+}
+.page-footer p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
