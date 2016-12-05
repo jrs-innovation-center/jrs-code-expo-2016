@@ -12,14 +12,20 @@ const jsbilton = React.createClass({
         </Head>
         <body className="fw1 san francisco white-70 bg-black">
           <div>
-            <div>
-              <img
+            <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
+              <div class="tc">
+                <img
                 className="br-100 fr-ns"
                 src="/static/JaredBilton.jpg" />
-                <span className="fw1 san francisco fr-ns">Jared Bilton</span>
+                <h1 class="fw1 san francisco mb2">Jared Bilton</h1>
+                <h2 class="fw1 gray mt0">Full Stack JavaScript Developer</h2>
+              </div>
+            </article>
+            <div>
+
             </div>
-            <h1 className="fw1 san francisco">MishMash</h1>
-            <h2 className="fw1 san francisco">Final Project for JRS Coding School</h2>
+            <h2 className="fw1 san francisco">MishMash</h2>
+            <h3 className="fw1 san francisco">Final Project for JRS Coding School</h3>
             <p>A restaurant locator application to be used from the convenience of your handheld mobile device.</p>
           </div>
           <div>
