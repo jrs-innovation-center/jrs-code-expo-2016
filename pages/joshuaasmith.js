@@ -20,7 +20,7 @@ const joshuaasmith = React.createClass({
                 </Head>
                 <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
                     <div className="tc">
-                        <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" className="dib ba b--black-05 pa2" title="Joshua Smith Profile Photo"/>
+                        <img src="/static/Josh/josh1.jpg" className="dib ba b--black-05 pa2" title="Joshua Smith Profile Photo"/>
                         <h1 className="f3 mb2">Joshua Smith</h1>
                         <h2 className="f5 fw4 gray mt0">Jack Russell Software Coding Schol</h2>
                         <h2 className="f5 fw4 gray mt0">Final Project</h2>
@@ -85,11 +85,20 @@ const joshuaasmith = React.createClass({
                                 </div>
                             </div>
                             <div className="pa3 pa4-ns dtc-ns v-mid">
-                                <a href="#" className="no-underline f6 tc db w-100 pv3 bg-animate bg-light-silver hover-bg-dark-blue white br2 avenir">Try Pet Tracker</a>
+                                <a href="http://pet-jet.surge.sh" className="no-underline f6 tc db w-100 pv3 bg-animate bg-light-silver hover-bg-dark-blue white br2 avenir">Try Pet Tracker</a>
                             </div>
                         </div>
                     </article>
                 </section>
+                <footer className="ph3 ph4-ns pv6 bt b--black-10 black-70 tc">
+                    <a href="mailto:" className="link b f3 f2-ns dim black-70 lh-solid center">joshua.aaron.smith17@gmail.com</a>
+                    <div className="mt5 tc">
+                        <a href="http://www.twitter.com/JoshuaASmith" title="twitter" className="f6 dib pr2 mid-gray dim" target="_blank">Twitter</a>
+                        <a href="http://www.github.com/JoshuaASmith" title="github" className="f6 dib ph2 mid-gray dim" target="_blank">Github</a>
+                        <a href="http://www.joshuaasmith.me" title="www.JoshuaASmith.me" className="f6 dib pl2 mid-gray dim" target="_blank">JoshuaASmith</a>
+                    </div>
+                </footer>
+
             </div>
         )
     }
