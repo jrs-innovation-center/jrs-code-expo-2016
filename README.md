@@ -14,7 +14,7 @@ Use a react component.
 
 ## Requirements
 
-`npm i yarn -g`
+`npm install yarn -g`
 
 ## Dev env
 
