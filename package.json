@@ -1,15 +1,15 @@
 {
-  "name": "jrs-coding-school-2016-expo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "next": "^1.2.3"
-  },
-  "scripts": {
-    "dev": "next"
-  },
-  "devDependencies": {
-    "tachyons": "^4.5.5"
-  }
+    "name": "jrs-coding-school-2016-expo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "next": "^1.2.3"
+    },
+    "scripts": {
+        "dev": "next"
+    },
+    "devDependencies": {
+        "tachyons": "^4.5.5"
+    }
 }
