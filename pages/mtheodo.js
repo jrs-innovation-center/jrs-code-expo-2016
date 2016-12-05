@@ -29,7 +29,7 @@ export default() => (
                         </div>
                         <div className="fl w-50 w-25-m w-20-l pa2">
                             <a href="https://geo.itunes.apple.com/us/album/at-fillmore-east-deluxe-edition/id2556279?mt=1&app=music" class="db link dim tc">
-                                <img src="http://is1.mzstatic.com/image/thumb/Music/v4/a3/3e/02/a33e026c-f619-1475-43a7-47e135a103a7/source/400x400bb.jpg" alt="The Allman Brothers Band Fillmore East" class="w-100 db outline black-10"/>
+                                <img src="http://is1.mzstatic.com/image/thumb/Music20/v4/04/1d/ae/041dae49-1b21-8640-d119-414e0c6538ff/source/400x400bb.jpg" alt="The Allman Brothers Band Fillmore East" class="w-100 db outline black-10"/>
                                 <dl className="mt2 f6 lh-copy">
                                     <dt className="clip">Title</dt>
                                     <dd className="ml0 black truncate w-100 ttu">At Fillmore East</dd>
