@@ -7,7 +7,9 @@
         "next": "^1.2.3"
     },
     "scripts": {
-        "dev": "next"
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
     },
     "devDependencies": {
         "tachyons": "^4.5.5"

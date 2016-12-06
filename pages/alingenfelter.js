@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+
 export default () => (
   <div className='pa4 w-90 center'>
     <Head>

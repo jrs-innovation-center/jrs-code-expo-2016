@@ -14,7 +14,7 @@ const joshuaasmith = React.createClass({
         return (
             <div className="pa2 bg-light-gray">
                 <Head>
-                    <title>Pet Tracker</title>
+                    <title>Pet Duet</title>
                     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css"/>
 
                 </Head>
@@ -30,13 +30,14 @@ const joshuaasmith = React.createClass({
                 <article data-name="article-full-bleed-background">
                     <div className="cf" style={styles}>
                         <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3 times">
-                            <header className="bb b--black-70 pv4">
-                                <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">Pet Jet</h3>
-                                <h4 className="f3 fw4 i lh-title mt0">Track your pet's health.</h4>
+                            <header className="bb b--black-70">
+                                <h3 className="f2 fw7 ttu tracked lh-title mt0 mb3 avenir pv4">Pet Duet</h3>
+                                <h4 className="f3 fw4 i lh-title mt0">Join in harmony with your vet
+                                    <br></br>over your pet's health today.</h4>
                             </header>
                             <section className="pt5 pb4">
                                 <p className="times lh-copy measure f4 mt0">
-                                    Pet tracker is designed to make communication between owner's and vets easier and more efficcient. Owners can login to Pet Jet and see the satus of their pet's vaccination records and information on their recent visits. Vets will have a centralized place to upload information about client's pets to make communication more seamless. Help take the stress out of caring for your pets by using Pet Jet!
+                                    Pet Duet is designed to make communication between owner's and vets easier and more efficcient. Owners can login to Pet Duet and see the satus of their pet's vaccination records and information on their recent visits. Vets will have a centralized place to upload information about client's pets to make communication more seamless. Help take the stress out of caring for your pets by using Pet Duet!
                                 </p>
                             </section>
                         </div>
@@ -52,7 +53,7 @@ const joshuaasmith = React.createClass({
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 avenir mt0 lh-title">Veterinarian Features</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    With Pet Jet, Veterinarians will be able to
+                                    With Pet Duet, Veterinarians will be able to
                                 </p>
                             </div>
                         </div>
@@ -65,7 +66,7 @@ const joshuaasmith = React.createClass({
                             <div className="w-100 w-60-ns pl3-ns">
                                 <h1 className="f3 fw1 avenir mt0 lh-title">Pet Owner Features</h1>
                                 <p className="f6 f5-l lh-copy">
-                                    Pet owners
+                                    Pet owners will be able to use Pet Duet to keep track of their pet's health in conjunction with their Veterinarian.
                                 </p>
                             </div>
                         </div>
@@ -77,15 +78,15 @@ const joshuaasmith = React.createClass({
                         <div className="dt-ns dt--fixed-ns w-100">
                             <div className="pa3 pa4-ns dtc-ns v-mid">
                                 <div>
-                                    <h2 className="avenir fw4 blue mt0 mb3 tc">Try Pet Tracker Today!
+                                    <h2 className="avenir fw4 blue mt0 mb3 tc">Try Pet Duet Today!
                                     </h2>
                                     <p className=" avenir white-80 measure lh-copy mv0">
-                                        See how Pet Tracker can help you keep up-to-date with your pet's health!
+                                        See how Pet Duet can help you keep up-to-date with your pet's health!
                                     </p>
                                 </div>
                             </div>
                             <div className="pa3 pa4-ns dtc-ns v-mid">
-                                <a href="http://pet-jet.surge.sh" className="no-underline f6 tc db w-100 pv3 bg-animate bg-light-silver hover-bg-dark-blue white br2 avenir">Try Pet Tracker</a>
+                                <a href="http://pet-jet.surge.sh" className="no-underline f6 tc db w-100 pv3 bg-animate bg-light-silver hover-bg-dark-blue white br2 avenir">Try Pet Duet</a>
                             </div>
                         </div>
                     </article>
