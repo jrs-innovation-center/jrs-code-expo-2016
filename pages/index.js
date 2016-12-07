@@ -19,7 +19,7 @@ const students = [{
   id: 3,
   name: 'Cameron Monaghan',
   project: '',
-  pic: '/static/Cameron/cameron3.jpg',
+  pic: '/static/Cameron/cameron2.jpg',
   url: '/monaghancj'
 },{
   id: 4,
@@ -41,7 +41,7 @@ const students = [{
   url: '/jsbilton'
 }, {
   id: 7,
-  name: 'Joe Daniel',
+  name: 'Joesph Daniel',
   project: '',
   pic: '/static/Joe/joe3.jpg',
   url: '/y-intercept'
@@ -61,7 +61,7 @@ const students = [{
   id: 10,
   name: 'Matt Theodore',
   project: '',
-  pic: '/static/Matt/matt3.jpg',
+  pic: '/static/Matt/matt2.jpg',
   url: '/mtheodo'
 }]
 
@@ -78,7 +78,7 @@ const Index = React.createClass({
           <h3>JRS Coding School 2016</h3>
         </header>
         <main className="container">
-          <section className="cf w-100 pa2-ns">
+          <section className="cf w-100 pa2-ns bg-black-20">
           {students.map(student => <Card {...student} key={student.id} />)}
           </section>
 
