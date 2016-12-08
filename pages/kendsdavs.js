@@ -1,5 +1,5 @@
 const React = require('react')
-import Head from 'next/Head'
+import Head from 'next/head'
 
 const kendsdavs = React.createClass({
   render() {

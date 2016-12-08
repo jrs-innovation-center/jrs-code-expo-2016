@@ -7,6 +7,6 @@ export default ({name, project, pic, url}) =>
     </div>
 
     <a href={`${url}`} className="ph2 ph0-ns pb3 link db">
-      <h3 className="mb0 black-70">{name}</h3>
+      <h3 className="mb0 black-70 tc">{name}</h3>
     </a>
   </article>
