@@ -60,7 +60,7 @@ const students = [{
 }, {
   id: 10,
   name: 'Matt Theodore',
-  project: 'My Top 5',
+  project: 'Coterie 292',
   pic: '/static/Matt/matt2.jpg',
   url: '/mtheodo'
 }]
