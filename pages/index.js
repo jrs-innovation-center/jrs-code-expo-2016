@@ -59,8 +59,8 @@ const students = [{
   url: '/kendsdavs'
 }, {
   id: 10,
-  name: 'Matt Theodore',
-  project: 'My Top 5',
+  name: 'Matt Theodore, RN BSN',
+  project: 'Coterie 292',
   pic: '/static/Matt/matt2.jpg',
   url: '/mtheodo'
 }]
