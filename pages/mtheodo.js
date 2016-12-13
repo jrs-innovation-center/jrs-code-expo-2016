@@ -12,7 +12,7 @@ export default() => (
             <header className="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
                 <h1 className="f1 b baskerville f2-m f-subheadline-l measure lh-title fw4 mt0">Coterie 292</h1>
                 <p className="f4">
-                    A social website that allows users to rate and review all things music and allow friends the ability to provide their opinions via votes and comments. Associated within the coterie, is the ability to create Top 5 lists that visitors can view but can not vote or add a comment. Users can create lists, vote and comment.
+                    A socially exclusive website that allows users to rate and review all things music. Associated within the coterie, is the ability to create Top 5 lists and create album reviews.
                 </p>
                 <article>
                     <div className="cf pa2">
