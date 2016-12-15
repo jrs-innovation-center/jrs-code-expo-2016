@@ -12,7 +12,7 @@ export default ({name, pic, url, project}) =>
           className="br-100 h4 w4 dib ba b--black-05 pa2"
           title={name}
           alt={name} />
-        <h1 className="f3 mb2 black-50">{name}</h1>
+        <h1 className="f4 mb2 black-50">{name}</h1>
         <h2 className="f5 fw4 gray mt0">{project}</h2>
       </div>
     </article>
