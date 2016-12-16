@@ -7,62 +7,62 @@ const students = [{
   id: 1,
   name: 'Alex Boquist',
   project: 'Band Manager App',
-  pic: '/static/Alex/alex4.jpg',
-  url: '/aplchian'
+  pic: '/static/Alex/headshot.png',
+  url: 'http://intouch.surge.sh/'
 }, {
   id: 2,
   name: 'Andrea Lingenfelter',
   project: 'Vehicle Repair Records',
-  pic: '/static/Andrea/andrea3.jpg',
+  pic: '/static/Andrea/headshot.png',
   url: '/alingenfelter'
 }, {
   id: 3,
   name: 'Cameron Monaghan',
   project: 'LunchIT',
-  pic: '/static/Cameron/cameron2.jpg',
+  pic: '/static/Cameron/headshot.png',
   url: '/monaghancj'
 },{
   id: 4,
   name: 'Chris Cortes',
   project: 'Chris Cleans 4 U',
-  pic: '/static/Chris/chris1.jpg',
+  pic: '/static/Chris/headshot.png',
   url: '/chriscortes4u'
 }, {
   id: 5,
   name: 'Derek McKee',
   project: 'MakaiSessions',
-  pic: '/static/Derek/derek1.jpg',
+  pic: '/static/Derek/headshot.png',
   url: '/garudacrafts'
 }, {
   id: 6,
   name: 'Jared Bilton',
   project: 'LunchIT',
-  pic: '/static/Jared/jared1.jpg',
+  pic: '/static/Jared/headshot.png',
   url: '/jsbilton'
 }, {
   id: 7,
   name: 'Joesph Daniel',
   project: 'Pet Vet DB',
-  pic: '/static/Joe/joe3.jpg',
-  url: '/y-intercept'
+  pic: '/static/Joe/headshot.png',
+  url: 'http://petvetdb.surge.sh/'
 }, {
   id: 8,
   name: 'Joshua A Smith',
   project: 'Pet Duet',
-  pic: '/static/Josh/josh1.jpg',
-  url: '/joshuaasmith'
+  pic: '/static/Josh/headshot.png',
+  url: 'http://pet-duet.surge.sh/'
 }, {
   id: 9,
   name: 'Kendra Davis',
   project: 'Pet Health Partners',
-  pic: '/static/Kendra/kendra3.jpg',
-  url: '/kendsdavs'
+  pic: '/static/Kendra/headshot.png',
+  url: 'http://pet-partner.surge.sh/'
 }, {
   id: 10,
   name: 'Matt Theodore, RN BSN',
   project: 'Coterie 292',
-  pic: '/static/Matt/matt2.jpg',
-  url: '/mtheodo'
+  pic: '/static/Matt/headshot.png',
+  url: 'http://coterie292.surge.sh/'
 }]
 
 const Index = React.createClass({
@@ -70,12 +70,29 @@ const Index = React.createClass({
     return (
       <div>
         <Head>
-          <title>JRS Coding School 2016 Program</title>
+          <title>JRS Coding School 2016 Graduates</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="stylesheet" href="/static/tachyons.css" />
+          <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png" />
+          <link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png" />
+          <link rel="apple-touch-icon" sizes="72x72" href="/static/apple-icon-72x72.png" />
+          <link rel="apple-touch-icon" sizes="76x76" href="/static/apple-icon-76x76.png" />
+          <link rel="apple-touch-icon" sizes="114x114" href="/static/apple-icon-114x114.png" />
+          <link rel="apple-touch-icon" sizes="120x120" href="/static/apple-icon-120x120.png" />
+          <link rel="apple-touch-icon" sizes="144x144" href="/static/apple-icon-144x144.png" />
+          <link rel="apple-touch-icon" sizes="152x152" href="/static/apple-icon-152x152.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-icon-180x180.png" />
+          <link rel="icon" type="image/png" sizes="192x192"  href="/static/android-icon-192x192.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+          <link rel="manifest" href="/static/manifest.json" />
+          <meta name="msapplication-TileColor" content="#ffffff" />
+          <meta name="msapplication-TileImage" content="/static/ms-icon-144x144.png" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
-        <header className="pa2 bg-green white georgia">
-          <h3 className="f2 ml3">JRS Coding School 2016</h3>
+        <header className="pa2 bg-white green georgia tc">
+          <img src="/static/jrs-logo.png" alt="jrs logo" />
         </header>
         <main className="container">
           <section className="cf w-100 pa2-ns bg-black-20">
