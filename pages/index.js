@@ -6,7 +6,7 @@ import Profile from '../components/profile'
 const students = [{
   id: 1,
   name: 'Alex Boquist',
-  project: 'Band Manager App',
+  project: 'InTouch',
   pic: '/static/Alex/headshot.png',
   url: 'http://intouch.surge.sh/',
   github: 'aplchian'
