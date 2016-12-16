@@ -8,61 +8,71 @@ const students = [{
   name: 'Alex Boquist',
   project: 'Band Manager App',
   pic: '/static/Alex/headshot.png',
-  url: 'http://intouch.surge.sh/'
+  url: 'http://intouch.surge.sh/',
+  github: 'aplchian'
 }, {
   id: 2,
   name: 'Andrea Lingenfelter',
   project: 'Vehicle Repair Records',
   pic: '/static/Andrea/headshot.png',
-  url: '/alingenfelter'
+  url: '/alingenfelter',
+  github: 'alingenfelter'
 }, {
   id: 3,
   name: 'Cameron Monaghan',
   project: 'LunchIT',
   pic: '/static/Cameron/headshot.png',
-  url: '/monaghancj'
+  url: 'http://tightfisted-range.surge.sh/',
+  github: 'monaghancj'
 },{
   id: 4,
   name: 'Chris Cortes',
   project: 'Chris Cleans 4 U',
   pic: '/static/Chris/headshot.png',
-  url: '/chriscortes4u'
+  url: 'http://chriscleans4u.surge.sh/',
+  github: 'chriscortes4u'
 }, {
   id: 5,
   name: 'Derek McKee',
   project: 'MakaiSessions',
   pic: '/static/Derek/headshot.png',
-  url: '/garudacrafts'
+  url: 'http://makaisessions.com/',
+  github: 'garudacrafts'
 }, {
   id: 6,
   name: 'Jared Bilton',
   project: 'LunchIT',
   pic: '/static/Jared/headshot.png',
-  url: '/jsbilton'
+  url: '/jsbilton',
+  github: 'jsbilton'
 }, {
   id: 7,
   name: 'Joesph Daniel',
   project: 'Pet Vet DB',
   pic: '/static/Joe/headshot.png',
-  url: 'http://petvetdb.surge.sh/'
+  url: 'http://petvetdb.surge.sh/',
+  github: 'y-intercept'
 }, {
   id: 8,
   name: 'Joshua A Smith',
   project: 'Pet Duet',
   pic: '/static/Josh/headshot.png',
-  url: 'http://pet-duet.surge.sh/'
+  url: 'http://pet-duet.surge.sh/',
+  github: 'joshuaasmith'
 }, {
   id: 9,
   name: 'Kendra Davis',
   project: 'Pet Health Partners',
   pic: '/static/Kendra/headshot.png',
-  url: 'http://pet-partner.surge.sh/'
+  url: 'http://pet-partner.surge.sh/',
+  github: 'kendsdavs'
 }, {
   id: 10,
   name: 'Matt Theodore, RN BSN',
   project: 'Coterie 292',
   pic: '/static/Matt/headshot.png',
-  url: 'http://coterie292.surge.sh/'
+  url: 'http://coterie292.surge.sh/',
+  github: 'mtheodo'
 }]
 
 const Index = React.createClass({
@@ -72,6 +82,7 @@ const Index = React.createClass({
         <Head>
           <title>JRS Coding School 2016 Graduates</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet" />
           <link rel="stylesheet" href="/static/tachyons.css" />
           <link rel="apple-touch-icon" sizes="57x57" href="/static/apple-icon-57x57.png" />
           <link rel="apple-touch-icon" sizes="60x60" href="/static/apple-icon-60x60.png" />
