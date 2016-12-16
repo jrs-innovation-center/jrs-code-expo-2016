@@ -15,7 +15,7 @@ const students = [{
   name: 'Andrea Lingenfelter',
   project: 'Vehicle Repair Records',
   pic: '/static/Andrea/headshot.png',
-  url: '/alingenfelter',
+  url: 'http://vehiclerepairrecord.surge.sh/',
   github: 'alingenfelter'
 }, {
   id: 3,
@@ -43,7 +43,7 @@ const students = [{
   name: 'Jared Bilton',
   project: 'LunchIT',
   pic: '/static/Jared/headshot.png',
-  url: '/jsbilton',
+  url: 'http://mishmash.surge.sh/',
   github: 'jsbilton'
 }, {
   id: 7,
